@@ -12,17 +12,17 @@ namespace HellsingPc.Misc
     {
         public static void Pass(string message)
         {
-           MelonLogger.Msg("[Pass] " + message);
+           MelonLogger.Msg(ConsoleColor.Green,"[Pass] " + message);
         }
 
         public static void MSG(string message)
         {
-            MelonLogger.Msg("[MSG] " + message);
+            MelonLogger.Msg(ConsoleColor.Yellow,"[MSG] " + message);
         }
 
         public static void Alert(string message)
         {
-            MelonLogger.Msg("[Alert] " + message);
+            MelonLogger.Msg(ConsoleColor.Red,"[Alert] " + message);
         }
     }
 }
