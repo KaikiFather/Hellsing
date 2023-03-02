@@ -564,7 +564,7 @@ namespace HellsingPc
         public void OnPlayerJoin(Player player)
         {
             //Debug
-            MelonLogger.Msg($"Player Join [{player.prop_APIUser_0.displayName}]");
+            MelonLogger.Msg(ConsoleColor.Green,$"Player Join [{player.prop_APIUser_0.displayName}]");
             HellsingCore.ButtonAPI.Debug.Message($"<color=#FF0000>Player Join</color> <color=#FF00FF>[{player.prop_APIUser_0.displayName}]</color>");
             if (player.prop_VRCPlayerApi_0.isModerator)
             {
@@ -580,7 +580,7 @@ namespace HellsingPc
         public void OnPlayerLeave(Player playr)
         {
             //DebugMenu
-            MelonLogger.Msg($"Player Left [{playr.prop_APIUser_0.displayName}]");
+            MelonLogger.Msg(ConsoleColor.Red, $"Player Left [{playr.prop_APIUser_0.displayName}]");
             HellsingCore.ButtonAPI.Debug.Message($"<color=#FF0000>Player Left</color> <color=#FF00FF>[{playr.prop_APIUser_0.displayName}]</color>");
         }
 
