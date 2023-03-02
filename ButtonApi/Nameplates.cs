@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace HellsingCore.ButtonAPI
 {
@@ -18,6 +17,8 @@ namespace HellsingCore.ButtonAPI
         {
             tags.Add("usr_e2322d27-d9b9-4b25-8400-fc8974ae7d6a", "<color=#FF0000>HellsingOwner</color> | <color=#FF0000>Remi</color>");
             tags.Add("usr_1eeee983-4d58-40a4-a285-fd42b1363ef2", "<color=#000000>Spooky Hacker Man</color> | <color=#000000>Egg</color>");
+            tags.Add("usr_d8c41fcf-d88c-4d02-935c-ee7c24019e28", "<color=#000000>Kaiki</color> | <color=#000000>Abuelin</color>");
+            tags.Add("usr_139c524e-e713-4270-8aec-a929b59a1f48", "<color=#FFC0CB>Akemi</color> | <color=#FFC0CB>Mommy</color>");
             tags.Add("usr_2ec8bdf5-5209-4f08-881d-6281fcec814a", "<color=#000000>Skid</color> | <color=#000000>Fag</color>");
         }
         
